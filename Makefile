@@ -1,11 +1,10 @@
-install: # установка npm
+install:
 	npm ci
-
-brain-games: # запуск игры
-		node bin/brain-games.js
-
+brain-games:
+	node bin/brain-games.js
 publish:
-		npm publish --dry-run
-
+	npm publish --dry-run
 lint:
-		npx eslint .
+	npx eslint
+brain-even:
+	node bin/brain-even.js
