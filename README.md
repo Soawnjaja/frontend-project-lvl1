@@ -3,4 +3,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/c0954d6baaabc6ee4c6c/maintainability)](https://codeclimate.com/github/Soawnjaja/frontend-project-lvl1/maintainability)
 
+# Brain-even preview
 [![asciicast](https://asciinema.org/a/8L7RNx2L0en9pFFmt1uIpFyBY.svg)](https://asciinema.org/a/8L7RNx2L0en9pFFmt1uIpFyBY)
+
+# Brain-calc preview
+[![asciicast](https://asciinema.org/a/Q8c5Vz1kdXdXLVQwZxKQED5sP.svg)](https://asciinema.org/a/Q8c5Vz1kdXdXLVQwZxKQED5sP)
