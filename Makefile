@@ -14,3 +14,5 @@ brain-gcd:
 	node games/brain-gcd.js
 brain-progression:
 	node games/brain-progression.js
+brain-prime:
+	node games/brain-prime.js
