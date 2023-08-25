@@ -9,4 +9,4 @@ function greetingsUser() {
   
 }
 
-export { greetingsUser, userName };
+export { greetingsUser};
