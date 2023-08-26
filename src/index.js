@@ -7,7 +7,7 @@ const startGame = (gameRules, gameData) => {
     console.log('Welcome to the Brain Games!');
     const userName = readlineSync.question('May I have your name? ');
     console.log(`Hello, ${userName}!`);
-    console.log(gameRules);
+    console.log(`${gameRules}`);
   
     for (let i = 1; i <= roundsCount; i += 1) {
       const [question, correctAnswer] = gameData();
