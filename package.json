@@ -5,12 +5,12 @@
   "description": "[![Actions Status](https://github.com/Soawnjaja/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Soawnjaja/frontend-project-lvl1/actions)",
   "main": "index.js",
   "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "games/brain-even.js",
-    "brain-calc": "games/brain-calc.js",
-    "brain-gcd": "games/brain-gcd.js",
-    "brain-progression": "games/brain-progression.js",
-    "brain-prime": "games/brain-prime.js"
+    "brain-games": "src/bin/brain-games.js",
+    "brain-even": "src/games/brain-even.js",
+    "brain-calc": "src/games/brain-calc.js",
+    "brain-gcd": "src/games/brain-gcd.js",
+    "brain-progression": "src/games/brain-progression.js",
+    "brain-prime": "src/games/brain-prime.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

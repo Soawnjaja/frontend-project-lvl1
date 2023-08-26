@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import startGame from '../src/index.js';
-import randomNum from '../utils/randomNum.js';
+import startGame from '../index.js';
+import randomNum from '../../utils/randomNum.js';
 import {gcd} from 'mathjs';
 
 const gameRules = 'Find the greatest common divisor of given numbers.';

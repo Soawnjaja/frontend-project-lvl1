@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import startGame from '../src/index.js';
+import startGame from '../index.js';
 import randomNum from '../utils/randomNum.js';
 import isEven from '../utils/isEven.js';
 
