@@ -11,7 +11,7 @@ const startGame = (gameRules, gameData) => {
   
     for (let i = 1; i <= roundsCount; i += 1) {
       const [question, correctAnswer] = gameData();
-      console.log(`${question}`);
+      console.log(`Question: ${question}`);
       const userAnswer = readlineSync.question('Your answer: ');
   
       if (userAnswer != correctAnswer) {
