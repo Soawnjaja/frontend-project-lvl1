@@ -1,5 +1,5 @@
 const randomMathOperator = () => {
-    const operatorArr = ['+', '-', '*'];
+    const operatorArr = ["+", "-", "*"];
     const randomIndex = Math.floor(Math.random(1) * operatorArr.length);
     return operatorArr[randomIndex];
 }
