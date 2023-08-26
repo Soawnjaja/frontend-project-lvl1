@@ -11,7 +11,7 @@ const gameData = () => {
   const number1 = randomNum();
   const number2 = randomNum();
   const operator = randomMathOperator();
-  const question = `Question: ${number1.toString()} ${operator} ${number2.toString()} `;
+  const question = `Question: ${number1.toString()} ${operator} ${number2.toString()}`;
   const correctAnswer = evaluate(`${number1}${operator}${number2}`);
   return [question, correctAnswer];
 };
