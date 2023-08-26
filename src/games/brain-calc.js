@@ -4,8 +4,8 @@ import startGame from '../index.js';
 import randomNum from '../utils/randomNum.js';
 import randomMathOperator from '../utils/randomMathOperator.js';
 import { evaluate } from 'mathjs';
-const gameRules = 'What is the result of the expression?';
 
+const gameRules = 'What is the result of the expression?';
 
 const gameData = () => {
   const number1 = randomNum();

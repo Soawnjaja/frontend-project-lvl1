@@ -6,13 +6,13 @@ import isEven from '../utils/isEven.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const getData = () => {
+const gameData = () => {
   const number = randomNum();
   const question = `${number}`;
   const correctAnswer = isEven(number) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
-const evenGame = () => startGame(gameRules, getData);
+const evenGame = () => startGame(gameRules, gameData);
 
 evenGame()
