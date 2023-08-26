@@ -8,13 +8,13 @@ const gameRules = 'What is the result of the expression?';
 
 
 const gameData = () => {
-    const number1 = randomNum();
-    const number2 = randomNum();
-    const operator = randomMathOperator();
-    const question = `Question: ${number1} ${operator} ${number2}`;
-    const correctAnswer = evaluate(`${number1}${operator}${number2}`);
-    return [question, correctAnswer];
-  };
+  const number1 = randomNum();
+  const number2 = randomNum();
+  const operator = randomMathOperator();
+  const question = `Question: ${number1} ${operator} ${number2}`;
+  const correctAnswer = evaluate(`${number1}${operator}${number2}`);
+  return [question, correctAnswer];
+};
 
   const calcGame = () => startGame(gameRules, gameData);
   
