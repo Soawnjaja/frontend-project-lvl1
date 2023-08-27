@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import startGame from '../src/index.js';
+import startGame from '../index.js';
 
 const gameRules = 'What number is missing in the progression?';
 const gameData = () => {
@@ -11,7 +11,7 @@ const gameData = () => {
   const step = Math.floor(Math.random() * 10) + 1;
   const correctAnswer = startIndex + lostIndexInProgression * step;
   const progression = [];
-  for (let i = 0; i < lengthProgression; i++) {
+  for (let i = 0; i < lengthProgression; i + 1) {
     if (i === lostIndexInProgression) {
       progression.push('..');
     } else {

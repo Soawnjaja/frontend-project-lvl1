@@ -15,4 +15,4 @@ const gameData = () => {
 
 const evenGame = () => startGame(gameRules, gameData);
 
-evenGame()
+evenGame();

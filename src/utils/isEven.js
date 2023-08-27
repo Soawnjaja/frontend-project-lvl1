@@ -1,5 +1,7 @@
-const isEven = (num) => {
-     return num % 2 === 0 ? true : false
-    }
-
-    export default isEven
+function isEven(num) {
+  if (num % 2 === 0) {
+    return true;
+  }
+  return false;
+}
+export default isEven;
