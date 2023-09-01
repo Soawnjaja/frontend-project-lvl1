@@ -1,18 +1,26 @@
-install:
+install: #first to this command to install dependencies
 	npm ci
-brain-games:
-	node bin/brain-games.js
+
 publish:
 	npm publish --dry-run
-lint:
+
+lint: #run linter
 	npx eslint .
+
+brain-games:
+	node bin/brain-games.js
+
 brain-even:
-	node src/games/brain-even.js
+	node bin/brain-even.js
+
 brain-calc:
-	node src/games/brain-calc.js
+	node bin/brain-calc.js
+
 brain-gcd:
-	node src/games/brain-gcd.js
+	node bin/brain-gcd.js
+
 brain-progression:
-	node src/games/brain-progression.js
+	node bin/brain-prgression.js
+
 brain-prime:
-	node src/games/brain-prime.js
+	node bin/brain-prime.js
