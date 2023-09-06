@@ -1,6 +1,8 @@
 import { getRandomNumber, createProgression } from '../utils/mathOperators.js';
 
-const progressionGame = () => {
+const gameData = 'What number is missing in the progression?';
+
+const startProgressionGame = () => {
   const start = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 10);
   const progressionLength = getRandomNumber(10, 20);
@@ -16,4 +18,4 @@ const progressionGame = () => {
   return [question, hiddenNumber];
 };
 
-export default progressionGame;
+export default startProgressionGame;
