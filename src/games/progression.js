@@ -18,4 +18,4 @@ const startProgressionGame = () => {
   return [question, hiddenNumber];
 };
 
-export default startProgressionGame;
+export { gameData, startProgressionGame };

@@ -1,6 +1,6 @@
 import { getRandomNumber, calculate } from '../utils/mathOperators.js';
 
-const gameData = 'What is the result of the expression?'
+const gameData = 'What is the result of the expression?';
 const startCalculationGame = () => {
   const num1 = getRandomNumber(1, 10);
   const num2 = getRandomNumber(1, 10);
@@ -13,4 +13,4 @@ const startCalculationGame = () => {
   return [question, result];
 };
 
-export default startCalculationGame;
+export { gameData, startCalculationGame };

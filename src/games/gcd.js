@@ -11,4 +11,4 @@ const startGcdGame = () => {
   return [question, result];
 };
 
-export default startGcdGame;
+export { gameData, startGcdGame };

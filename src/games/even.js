@@ -10,4 +10,4 @@ const startIsEvenGame = () => {
   return [question, result];
 };
 
-export default startIsEvenGame;
+export { gameData, startIsEvenGame };
