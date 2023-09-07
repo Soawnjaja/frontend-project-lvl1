@@ -1,6 +1,6 @@
 import { getRandomNumber, isPrime } from '../utils/mathOperators.js';
 
-const gameData = '"yes" if the number is even, otherwise answer "no".';
+const gameData = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const startPrimeGame = () => {
   const num = getRandomNumber();
