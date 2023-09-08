@@ -3,14 +3,14 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/c0954d6baaabc6ee4c6c/maintainability)](https://codeclimate.com/github/Soawnjaja/frontend-project-lvl1/maintainability)
 # Brain-games app
 game in the terminal about logical operations with numbers
-
+### Reqired
+*node.js, version 13.20.0 or higher is required.
+```
 ### Install
 
 *Clone repository 
 ```
 git clone https://github.com/Soawnjaja/frontend-project-lvl1.git
-```
-*node.js, version 13.20.0 or higher is required.
 ```
 npm i
 ```
