@@ -1,11 +1,11 @@
-import { getRandomNumber, calculate } from '../utils/mathOperators.js';
+import { getRandomNumber, calculate } from '../utils/utils.js';
 import startGame from '../index.js';
 const description = 'What is the result of the expression?';
 const startCalculationGame = () => {
   const num1 = getRandomNumber(1, 10);
   const num2 = getRandomNumber(1, 10);
-  const operations = ['+', '-', '*'];
-  const operator = operations[getRandomNumber(0, 3)];
+  const operatorList = ['+', '-', '*'];
+  const operator = operatorList[getRandomNumber(0, 2)];
 
   const question = `${num1} ${operator} ${num2}`;
   const result = calculate(num1, num2, operator);
@@ -13,5 +13,5 @@ const startCalculationGame = () => {
   return [question, result];
 };
 
- 
- export default startGame(description, startCalculationGame);
+ const runGame = () => startGame(description, startCalculationGame);
+ export default runGame;

@@ -1,18 +1,15 @@
 export const getRandomNumber = (min = 1, max = 100) => {
-  const result = Math.floor(Math.random() * (max - min) + min);
+  const result = Math.floor(Math.random() * (max - min + 1) + min);
   return result;
 };
 
 export const isEven = (num) => num % 2 === 0;
 
 export const isPrime = (num) => {
-  if (num === 1) {
+  if (num < 2) {
     return false;
   }
-  if (num === 2) {
-    return true;
-  }
-  for (let i = 2; i < num; i += 1) {
+  for (let i = 2; i <= Math.sqrt(num); i += 1) {
     if (num % i === 0) {
       return false;
     }
@@ -21,21 +18,21 @@ export const isPrime = (num) => {
 };
 
 export const calculate = (num1, num2, defineOperation) => {
-  let result = 0;
+  let answer = 0;
   switch (defineOperation) {
     case '+':
-      result = num1 + num2;
+      answer = `${num1 + num2}`;
       break;
     case '-':
-      result = num1 - num2;
+      answer = `${num1 - num2}`;
       break;
     case '*':
-      result = num1 * num2;
+      answer = `${num1 * num2}`;
       break;
     default:
-      result = null;
+      throw new Error(`Unknown operator: '${operator}'`);
   }
-  return result;
+  return answer;
 };
 
 export const getGcd = (n1, n2) => {

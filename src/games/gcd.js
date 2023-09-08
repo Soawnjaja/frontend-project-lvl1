@@ -1,6 +1,6 @@
-import { getRandomNumber, getGcd } from '../utils/mathOperators.js';
+import { getRandomNumber, getGcd } from '../utils/utils.js';
 
-const gameData = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const startGcdGame = () => {
   const num1 = getRandomNumber();
@@ -11,4 +11,5 @@ const startGcdGame = () => {
   return [question, result];
 };
 
-export { gameData, startGcdGame };
+const runGame = () => startGame(description, startGcdGame);
+export default runGame;

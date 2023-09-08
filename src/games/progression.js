@@ -1,13 +1,13 @@
-import { getRandomNumber, createProgression } from '../utils/mathOperators.js';
+import { getRandomNumber, createProgression } from '../utils/utils.js';
 
-const gameData = 'What number is missing in the progression?';
+const description = 'What number is missing in the progression?';
 
 const startProgressionGame = () => {
   const start = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 10);
-  const progressionLength = getRandomNumber(10, 20);
+  const length = getRandomNumber(10, 20);
 
-  const progression = createProgression(start, step, progressionLength);
+  const progression = createProgression(start, step, length);
 
   const randomIndex = getRandomNumber(1, progression.length - 1);
   const hiddenNumber = progression[randomIndex];
@@ -18,4 +18,5 @@ const startProgressionGame = () => {
   return [question, hiddenNumber];
 };
 
-export { gameData, startProgressionGame };
+const runGame = () => startGame(description, startProgressionGame);
+export default runGame;

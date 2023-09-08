@@ -1,6 +1,6 @@
-import { getRandomNumber, isPrime } from '../utils/mathOperators.js';
+import { getRandomNumber, isPrime } from '../utils/utils.js';
 
-const gameData = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const startPrimeGame = () => {
   const num = getRandomNumber();
@@ -10,4 +10,5 @@ const startPrimeGame = () => {
   return [question, result];
 };
 
-export { gameData, startPrimeGame };
+const runGame = () => startGame(description, startPrimeGame);
+export default runGame;
