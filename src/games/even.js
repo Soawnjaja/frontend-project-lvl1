@@ -1,13 +1,12 @@
 import { getRandomNumber, isEven } from '../utils/mathOperators.js';
 
-const gameData = 'Answer "yes" if the number is even, otherwise answer "no".';
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const startIsEvenGame = () => {
-  const num = getRandomNumber();
-  const question = num;
+  const question = getRandomNumber();
   const result = isEven(num) ? 'yes' : 'no';
 
   return [question, result];
 };
 
-export { gameData, startIsEvenGame };
+export { description, startIsEvenGame};

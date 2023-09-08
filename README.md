@@ -1,9 +1,19 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Soawnjaja/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Soawnjaja/frontend-project-lvl1/actions)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/c0954d6baaabc6ee4c6c/maintainability)](https://codeclimate.com/github/Soawnjaja/frontend-project-lvl1/maintainability)
 # Brain-games app
 game in the terminal about logical operations with numbers
 
+### Install
+
+*Clone repository 
+```
+git clone https://github.com/Soawnjaja/frontend-project-lvl1.git
+```
+*node.js, version 13.20.0 or higher is required.
+```
+npm i
+```
 ## Summary
 
 You can choose one of 5 games:
@@ -29,16 +39,6 @@ brain-praim: Determine whether a number is prime;
 -Brain-prime preview
 [![asciicast](https://asciinema.org/a/omGbWCGsRJOO5wMzenJMIOybT.svg)](https://asciinema.org/a/omGbWCGsRJOO5wMzenJMIOybT)
 
-### Install
-
-*Clone repository 
-```
-git clone https://github.com/bobrov-site/frontend-project-44.git
-```
-*node.js, version 12.20.0 or higher is required.
-```
-npm i
-```
 ### game runs by brain-"name of game"
 ```
 brain-even
